@@ -1,0 +1,73 @@
+
+.style_switcher{
+    position:fixed;
+    top:20px;
+    right:0;
+    z-index:10;
+    background-color: #ffffff;
+    padding:15px;
+    border:1px solid #d4d4e3;
+    border-right: none;
+    border-radius: 0 0 0 5px;
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.style_switcher.open{
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%); 
+}
+
+.style_switcher h5{
+    font-size: 16px;
+    color: #302e4d;
+    margin-bottom: 8px;
+    margin-top: 0;
+    border-bottom: 1px solid #e8dfec;
+    padding-bottom: 5px;
+}
+
+.style_switcher ul{
+    margin:0;
+    padding:0;
+    list-style: none;
+    margin-bottom: 5px;
+    display: block;
+
+}
+
+.style_switcher ul li{
+    display: inline-block;
+}
+
+.style_switcher ul li a{
+    height:30px;
+    width:30px;
+    display: block;
+    border-radius: 50%;
+    text-decoration: none;
+    margin-right: 3px;
+    cursor: pointer;
+}
+
+.style_switcher .toggler_switch{
+    position: absolute;
+    width:45px;
+    height:45px;
+    left:-46px;
+    top:-1px;
+    border:1px solid #d4d4e3;
+    border-right: none;
+    text-align: center;
+    background-color: #ffffff;
+    cursor: pointer;
+    border-radius: 5px 0 0 5px;
+}
+
+.style_switcher .toggler_switch .fa{
+    line-height: 43px;
+    font-size: 20px;
+   
+}

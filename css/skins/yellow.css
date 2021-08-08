@@ -1,0 +1,38 @@
+.aside .logo a::before{
+    border-top: 4px solid #ffb400;
+    border-left: 4px solid #ffb400;
+}
+.aside .logo a::after{
+    border-bottom: 4px solid #ffb400;
+    border-right: 4px solid #ffb400;
+}
+
+.contact .contact_info_item .icon .fa,
+.project .project_item_inner .project_info .project_tags a,
+.service .service_item_inner .icon .fas,
+.about .about_content .about_text span,
+body.dark .aside .nav li a:hover,
+body.dark .aside .nav li a.active,
+.aside .nav li a:hover,
+.aside .nav li a.active
+{
+    color:#ffb400;
+}
+
+.project .project_item_inner .project_date,
+.about .about_content .timeline  .circle_dot,
+.about .about_content .timeline .timeline_item::before,
+.btn,
+.section_title h2::after,
+.section_title h2::before,
+.aside .nav_toggler span,
+.aside .nav_toggler span::before,
+.aside .nav_toggler span::after{
+    background-color:#ffb400;
+}
+
+.service .service_item_inner:hover .icon,
+.about .about_content .skills .skill_item .progress .progress_in,
+.home .intro .social_links a{
+    background-color:#ffb400;
+}
